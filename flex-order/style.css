@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(190, 190, 190);
+    text-align: -webkit-center;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.item{
+    flex: 1;
+    background: blueviolet;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.o1{
+    order: 1;
+}
+
+.o2{
+    order: 2;
+}
+
+.o3{
+    order: 3;
+}
+
+.o4{
+    order: 4;
+}
+
+.o5{
+    order: 5;
+}
+
+.o6{
+    order: 6;
+}
+
+.direction{
+    flex-direction: column;
+}
